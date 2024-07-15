@@ -1,3 +1,112 @@
-// @media screen (max-width:992px) {
+@media screen and (max-width:767px) {
+    .nav-menu {
+        .container {
+            .expand {
+                .menu {
+                    display: none;
+                }
+            }
+        }
+    }
 
-// }
+    .nasproject {
+        .swiper {
+            .swiper-slide {
+                .content {
+                    margin: 0;
+                    padding: 29px 13px;
+                }
+
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .credits {
+        .container {
+            .credits-boxes, .credit-boxes {
+              display: block;
+              .credits-box {
+                width: 100%;
+              }
+            }
+        }
+    }
+
+    .footer-top {
+        .container {
+            display: block;
+            margin-left: 16px;
+            .phone {
+                margin-top: 12px;
+                p {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .footer-main {
+        .container {
+            .menu {
+                width: 50%;
+            }
+        }
+    }
+
+    .bokt {
+        .container {
+            display: block;
+            .text {
+                width: 100%;
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .missiya {
+        .container {
+            display: block;
+            .text {
+                width: 100%;
+            }
+            .image {
+                width: 100%;
+            }
+        }
+    }
+    
+    .maliyye {
+        .container {
+            display: block;
+            .static-text {
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            .img {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .rehberlik {
+        .container {
+            display: block;
+            .text {
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            .image {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

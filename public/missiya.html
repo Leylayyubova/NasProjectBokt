@@ -17,45 +17,35 @@
         <div class="container">
             <div class="expand">
                 <div class="logo">
-                    <img src="https://nasproject.az/img/logo-header-110.png" alt="">
+                    <img src="https://nasproject.az/img/logo-header-110.png" alt="NAS Project BOKT Logo" data-az="NAS Project BOKT Logo" data-ru="NAS Project BOKT Logo">
                 </div>
                 <ul class="menu">
-                    <li><a href="">Baş səhifə</a></li>
-                    <li><a href="">Haqqımızda </a>
+                    <li><a href="./index.html" data-az="Baş səhifə" data-ru="Главная страница">Baş səhifə</a></li>
+                    <li><a href="#" data-az="Haqqımızda" data-ru="О нас">Haqqımızda</a>
                         <ul class="sub-menu">
-                            <li><a href="./bokt.html">BOKT haqqında</a></li>
-                            <li><a href="./missiya.html">Missiya və vizyon</a></li>
-                            <li><a href="./rehberlik.html">Rəhbərlik</a></li>
-                            <li><a href="./maliyye.html">Maliyyə hesabatları</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./bokt.html" data-az="BOKT haqqında" data-ru="О BOKT">BOKT haqqında</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./missiya.html" data-az="Missiya və vizyon" data-ru="Миссия и видение">Missiya və vizyon</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./rehberlik.html" data-az="Rəhbərlik" data-ru="Руководство">Rəhbərlik</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./maliyye.html" data-az="Maliyyə hesabatları" data-ru="Финансовые отчеты">Maliyyə hesabatları</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Kreditlər </a>
+                    <li><a href="#" data-az="Kreditlər" data-ru="Кредиты">Kreditlər</a>
                         <ul class="sub-menu">
-                            <li><a href="">Lombard krediti</a></li>
-                            <li><a href="">Avtomobil lizinqi</a></li>
-                            <li><a href="">Avtokredit</a></li>
-                            <li><a href="">Biznes krediti</a></li>
-                            <li><a href="">İstehlak krediti</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="#" data-az="Lombard krediti" data-ru="Ломбардный кредит">Lombard krediti</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="#" data-az="Avtomobil lizinqi" data-ru="Лизинг автомобиля">Avtomobil lizinqi</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="#" data-az="Avtokredit" data-ru="Автокредит">Avtokredit</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="#" data-az="Biznes krediti" data-ru="Бизнес-кредит">Biznes krediti</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="#" data-az="İstehlak krediti" data-ru="Потребительский кредит">İstehlak krediti</a></li>
                         </ul>
                     </li>
-                    <li><a href="">Əlaqə</a></li>
+                    <li><a href="#" data-az="Əlaqə" data-ru="Контакты">Əlaqə</a></li>
                 </ul>
             </div>
             <div class="btn">
                 <div class="toggle-btn">
-                    <button id="dark_mode"><i class="fa-solid fa-moon"></i></button>
+                    <button id="dark_mode" aria-label="Toggle Dark Mode"><i class="fa-solid fa-moon"></i></button>
                 </div>
-                <div class="language">
-                    <select>
-                        <p>Dili dəyiş</p>
-                        <option value="az"><img src="https://nasproject.az/img/azerbaijan%20(1).png" alt="">
-                            Azərbaycan dili</option>
-                        <option value="ru">
-                            <img src="https://nasproject.az/img/russia%20(1).png" alt="">
-                            Русский
-                        </option>
-                    </select>
-                </div>
+                <button id="languageButton">Dili dəyişdir</button>
             </div>
         </div>
     </header>
@@ -63,23 +53,20 @@
         <section class="missiya">
             <div class="container">
                 <div class="text">
-                    <h2>Missiya və vizyon</h2>
-                    <h3>Missiya</h3>
-                    <p><i class="fa-solid fa-circle"></i>hər kəsin arzu və məqsədləri yolunda irəliləməsi üçün işlərinin həllində dəstək olmaq</p>
-                    <p><i class="fa-solid fa-circle"></i>hər kəsin maliyyə resurslarına çıxışını təmin etməklə iqtisadi azadlıq qazanmasına kömək etmək
-                    </p>
-                    <p><i class="fa-solid fa-circle"></i>yeni və təkmil rəqəmsal maliyyə həlləri ilə çevik xidmət göstərmək</p>
-                    <p><i class="fa-solid fa-circle"></i>müxtəlif sahələrə aid özəlləşdirilmiş və asanlaşdırılmış kredit əldə etmə imkanı təmin etmək</p>
-                    <h3>Vizyon</h3>
-                    <p><i class="fa-solid fa-circle"></i>maliyyə sektorunda önəmli bazar payı sahibi və məmnun müştəri portfelinə malik olmaq</p>
-                    <p><i class="fa-solid fa-circle"></i>sadə və əlçatan kredit xidmətləri ilə etibarlı tərəfdaşlıq quraraq maliyyə dəstəkçisi olmaq</p>
-                    <p><i class="fa-solid fa-circle"></i>sektorumuza uyğun özəl xidmət paketlərinin işlənib hazırlanması və inkişaf etdirilməsi üçün
-                        həllər yaratmaq</p>
-                    <p><i class="fa-solid fa-circle"></i>müştərilərin vaxtına qənaət edəcək və minimum sənədləşmə ilə reallaşa bilən yeni imkanlar təqdim
-                        etmək</p>
+                    <h2 data-az="Missiya və vizyon" data-ru="Миссия и видение">Missiya və vizyon</h2>
+                    <h3 data-az="Missiya" data-ru="Миссия">Missiya</h3>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="hər kəsin arzu və məqsədləri yolunda irəliləməsi üçün işlərinin həllində dəstək olmaq" data-ru="поддержка в решении дел для продвижения к целям и желаниям каждого">hər kəsin arzu və məqsədləri yolunda irəliləməsi üçün işlərinin həllində dəstək olmaq</span></p>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="hər kəsin maliyyə resurslarına çıxışını təmin etməklə iqtisadi azadlıq qazanmasına kömək etmək" data-ru="способствовать получению экономической свободы путем обеспечения доступа к финансовым ресурсам">hər kəsin maliyyə resurslarına çıxışını təmin etməklə iqtisadi azadlıq qazanmasına kömək etmək</span></p>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="yeni və təkmil rəqəmsal maliyyə həlləri ilə çevik xidmət göstərmək" data-ru="предоставление оперативных услуг с новыми и усовершенствованными цифровыми финансовыми решениями">yeni və təkmil rəqəmsal maliyyə həlləri ilə çevik xidmət göstərmək</span></p>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="müxtəlif sahələrə aid özəlləşdirilmiş və asanlaşdırılmış kredit əldə etmə imkanı təmin etmək" data-ru="обеспечение возможности получения специализированных и упрощенных кредитов в различных сферах">müxtəlif sahələrə aid özəlləşdirilmiş və asanlaşdırılmış kredit əldə etmə imkanı təmin etmək</span></p>
+                    <h3 data-az="Vizyon" data-ru="Видение">Vizyon</h3>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="maliyyə sektorunda önəmli bazar payı sahibi və məmnun müştəri portfelinə malik olmaq" data-ru="обладание значительной долей рынка в финансовом секторе и удовлетворенным клиентским портфелем">maliyyə sektorunda önəmli bazar payı sahibi və məmnun müştəri portfelinə malik olmaq</span></p>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="sadə və əlçatan kredit xidmətləri ilə etibarlı tərəfdaşlıq quraraq maliyyə dəstəkçisi olmaq" data-ru="стать финансовым партнером, предоставляющим простые и доступные кредитные услуги">sadə və əlçatan kredit xidmətləri ilə etibarlı tərəfdaşlıq quraraq maliyyə dəstəkçisi olmaq</span></p>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="sektorumuza uyğun özəl xidmət paketlərinin işlənib hazırlanması və inkişaf etdirilməsi üçün həllər yaratmaq" data-ru="создание решений для разработки и улучшения специализированных сервисных пакетов в нашем секторе">sektorumuza uyğun özəl xidmət paketlərinin işlənib hazırlanması və inkişaf etdirilməsi üçün həllər yaratmaq</span></p>
+                    <p><i class="fa-solid fa-circle"></i><span data-az="müştərilərin vaxtına qənaət edəcək və minimum sənədləşmə ilə reallaşa bilən yeni imkanlar təqdim etmək" data-ru="представление новых возможностей, которые экономят время клиентов и могут быть реализованы с минимальной документацией">müştərilərin vaxtına qənaət edəcək və minimum sənədləşmə ilə reallaşa bilən yeni imkanlar təqdim etmək</span></p>
                 </div>
                 <div class="image">
-                    <img src="https://nasproject.az/uploads/posts/2021-07/1627566069_target-dart512x512.png" alt="">
+                    <img src="https://nasproject.az/uploads/posts/2021-07/1627566069_target-dart512x512.png" alt="Mission and Vision Image" data-az="Missiya və Vizyon Şəkili" data-ru="Изображение миссии и видения">
                 </div>
             </div>
         </section>
@@ -88,61 +75,63 @@
         <div class="footer-top">
             <div class="container">
                 <div class="title">
-                    <h5>Sosial media hesabları</h5>
+                    <h5 data-az="Sosial media hesabları" data-ru="Социальные медиа аккаунты">Sosial media hesabları</h5>
                     <div class="social">
-                        <i class="fa-brands fa-facebook-f"></i><a href="">Facebook</a>
-                        <i class="fa-brands fa-instagram"></i><a href="">Instagram</a>
-                        <i class="fa-brands fa-youtube"></i><a href="">Youtube</a>
+                        <i class="fa-brands fa-facebook-f"></i><a href="#" data-az="Facebook" data-ru="Facebook">Facebook</a>
+                        <i class="fa-brands fa-instagram"></i><a href="#" data-az="Instagram" data-ru="Instagram">Instagram</a>
+                        <i class="fa-brands fa-youtube"></i><a href="#" data-az="Youtube" data-ru="YouTube">Youtube</a>
                     </div>
                 </div>
                 <div class="phone">
-                    <a href="">+994 50 232 92 07</a>
-                    <p>Qaynar xətt</p>
+                    <a href="tel:+994502329207">+994 50 232 92 07</a>
+                    <p data-az="Qaynar xətt" data-ru="Горячая линия">Qaynar xətt</p>
                 </div>
             </div>
         </div>
         <div class="footer-main">
             <div class="container">
                 <ul class="menu">
-                    <li><a href="">Baş səhifə</a></li>
-                    <li><a href="">BOKT haqqında</a></li>
-                    <li><a href="">Missiya və vizyon</a></li>
+                    <li><a href="#" data-az="Baş səhifə" data-ru="Главная страница">Baş səhifə</a></li>
+                    <li><a href="#" data-az="BOKT haqqında" data-ru="О BOKT">BOKT haqqında</a></li>
+                    <li><a href="#" data-az="Missiya və vizyon" data-ru="Миссия и видение">Missiya və vizyon</a></li>
                 </ul>
                 <ul class="menu">
-                    <li><a href="">Rəhbərlik</a></li>
-                    <li><a href="">Maliyyə hesabatları</a></li>
-                    <li><a href="">Lombard krediti</a></li>
+                    <li><a href="#" data-az="Rəhbərlik" data-ru="Руководство">Rəhbərlik</a></li>
+                    <li><a href="#" data-az="Maliyyə hesabatları" data-ru="Финансовые отчеты">Maliyyə hesabatları</a></li>
+                    <li><a href="#" data-az="Lombard krediti" data-ru="Ломбардный кредит">Lombard krediti</a></li>
                 </ul>
                 <ul class="menu">
-                    <li><a href="">Avtomobil lizinqi</a></li>
-                    <li><a href="">İş yerindən arayışla kredit</a></li>
+                    <li><a href="#" data-az="Avtomobil lizinqi" data-ru="Лизинг автомобиля">Avtomobil lizinqi</a></li>
+                    <li><a href="#" data-az="İş yerindən arayışla kredit" data-ru="Кредит с справкой с места работы">İş yerindən arayışla kredit</a></li>
                 </ul>
                 <ul class="menu">
-                    <li><a href="">Kənd təsərrüfatı krediti</a></li>
-                    <li><a href="">Sahibkarlıq krediti</a></li>
-                    <li><a href="">Biznes krediti</a></li>
+                    <li><a href="#" data-az="Kənd təsərrüfatı krediti" data-ru="Сельскохозяйственный кредит">Kənd təsərrüfatı krediti</a></li>
+                    <li><a href="#" data-az="Sahibkarlıq krediti" data-ru="Предпринимательский кредит">Sahibkarlıq krediti</a></li>
+                    <li><a href="#" data-az="Biznes krediti" data-ru="Бизнес-кредит">Biznes krediti</a></li>
                 </ul>
                 <ul class="menu">
-                    <li><a href="">+994 50 232 92 07</a></li>
-                    <li><a href="">+994 12 489 80 00</a></li>
-                    <li><a href="">info@nasproject.az</a></li>
+                    <li><a href="tel:+994502329207">+994 50 232 92 07</a></li>
+                    <li><a href="tel:+994124898000">+994 12 489 80 00</a></li>
+                    <li><a href="mailto:info@nasproject.az">info@nasproject.az</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
             <div class="container">
                 <div class="copyright">
-                    <p>Copyright ©2024 "NAS Project" Bank Olmayan Kredit Təşkilatı</p>
+                    <p data-az='Copyright ©2024 "NAS Project" Bank Olmayan Kredit Təşkilatı' data-ru='Авторские права ©2024 "NAS Project" Небанковская кредитная организация'>Copyright ©2024 "NAS Project" Bank Olmayan Kredit Təşkilatı</p>
                 </div>
                 <div class="site-by">
-                    <p> Saytın hazırlanması </p>
+                    <p data-az="Saytın hazırlanması" data-ru="Разработка сайта">Saytın hazırlanması</p>
                 </div>
             </div>
         </div>
     </footer>
     <script src="../src/js/dark.js"></script>
     <script src="../src/js/swiper.js"></script>
+    <script src="../src/js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

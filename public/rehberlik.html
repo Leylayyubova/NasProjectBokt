@@ -20,22 +20,22 @@
                     <img src="https://nasproject.az/img/logo-header-110.png" alt="">
                 </div>
                 <ul class="menu">
-                    <li><a href="">Baş səhifə</a></li>
+                    <li><a href="./index.html">Baş səhifə</a></li>
                     <li><a href="">Haqqımızda </a>
                         <ul class="sub-menu">
-                            <li><a href="./bokt.html">BOKT haqqında</a></li>
-                            <li><a href="./missiya.html">Missiya və vizyon</a></li>
-                            <li><a href="./rehberlik.html">Rəhbərlik</a></li>
-                            <li><a href="./maliyye.html">Maliyyə hesabatları</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./bokt.html">BOKT haqqında</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./missiya.html">Missiya və vizyon</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./rehberlik.html">Rəhbərlik</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="./maliyye.html">Maliyyə hesabatları</a></li>
                         </ul>
                     </li>
                     <li><a href="">Kreditlər </a>
                         <ul class="sub-menu">
-                            <li><a href="">Lombard krediti</a></li>
-                            <li><a href="">Avtomobil lizinqi</a></li>
-                            <li><a href="">Avtokredit</a></li>
-                            <li><a href="">Biznes krediti</a></li>
-                            <li><a href="">İstehlak krediti</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="">Lombard krediti</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="">Avtomobil lizinqi</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="">Avtokredit</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="">Biznes krediti</a></li>
+                            <li><i class="fa-solid fa-wallet"></i><a href="">İstehlak krediti</a></li>
                         </ul>
                     </li>
                     <li><a href="">Əlaqə</a></li>
@@ -45,39 +45,29 @@
                 <div class="toggle-btn">
                     <button id="dark_mode"><i class="fa-solid fa-moon"></i></button>
                 </div>
-                <div class="language">
-                    <select>
-                        <p>Dili dəyiş</p>
-                        <option value="az"><img src="https://nasproject.az/img/azerbaijan%20(1).png" alt="">
-                            Azərbaycan dili</option>
-                        <option value="ru">
-                            <img src="https://nasproject.az/img/russia%20(1).png" alt="">
-                            Русский
-                        </option>
-                    </select>
-                </div>
+                <button id="languageButton">Dili dəyişdir</button>
             </div>
         </div>
     </header>
     <main>
         <section class="rehberlik">
-          <div class="container">
-            <div class="text">
-                <h2>Rəhbərlik</h2>
-                <h4>Təsisçi və Müşahidə Şurasının sədri</h4>
-                <span>Quliyev Məhəmməd Nizami oğlu</span>
-                <span>guliyev.m@nasproject.az</span>
-                <p>İdarə Heyətinin sədri</p>
-                <span>Məmmədov Elnur Fəzli oğlu</span>
-                <span>mammadov.e@nasproject.az</span>
-                <p>İdarə Heyəti sədrinin müavini</p>
-                <span>Cəfərov Nəriman Sərdar oğlu</span>
-                <span>jafarov.n@nasproject.az</span>
+            <div class="container">
+                <div class="text">
+                    <h2 data-en="Leadership" data-az="Rəhbərlik" data-ru="Руководство">Rəhbərlik</h2>
+                    <h4 data-en="Chairman of the Founder and Supervisory Board" data-az="Təsisçi və Müşahidə Şurasının sədri" data-ru="Председатель Учредительного и Наблюдательного Совета">Təsisçi və Müşahidə Şurasının sədri</h4>
+                    <span>Quliyev Məhəmməd Nizami oğlu</span>
+                    <span>guliyev.m@nasproject.az</span>
+                    <p data-en="Chairman of the Management Board" data-az="İdarə Heyətinin sədri" data-ru="Председатель Правления">İdarə Heyətinin sədri</p>
+                    <span>Məmmədov Elnur Fəzli oğlu</span>
+                    <span>mammadov.e@nasproject.az</span>
+                    <p data-en="Deputy Chairman of the Management Board" data-az="İdarə Heyəti sədrinin müavini" data-ru="Заместитель председателя Правления">İdarə Heyəti sədrinin müavini</p>
+                    <span>Cəfərov Nəriman Sərdar oğlu</span>
+                    <span>jafarov.n@nasproject.az</span>
+                </div>
+                <div class="image">
+                    <img src="https://nasproject.az/uploads/posts/2021-07/1627711841_eames-dar-chair-hire.png" alt="">
+                </div>
             </div>
-            <div class="image">
-                <img src="https://nasproject.az/uploads/posts/2021-07/1627711841_eames-dar-chair-hire.png" alt="">
-            </div>
-          </div>
         </section>
     </main>
     <footer>
@@ -138,7 +128,9 @@
     </footer>
     <script src="../src/js/dark.js"></script>
     <script src="../src/js/swiper.js"></script>
+    <script src="../src/js/main.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
 </body>
 
 </html>

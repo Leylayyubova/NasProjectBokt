@@ -64,13 +64,17 @@ ul {
 }
 .nav-menu .container .expand .menu li .sub-menu {
   display: none;
+  border-radius: 6px;
   position: absolute;
   background-color: #fff;
   z-index: 1000;
-  width: 200px;
+  width: 220px;
 }
 .nav-menu .container .expand .menu li .sub-menu li {
   line-height: 60px;
+}
+.nav-menu .container .expand .menu li .sub-menu li i {
+  margin-right: 12px;
 }
 .nav-menu .container .expand .menu li:hover .sub-menu {
   display: block;
@@ -82,10 +86,14 @@ ul {
   margin-right: 10px;
 }
 .nav-menu .container .btn .toggle-btn #dark_mode {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   background-color: #fff;
   border-radius: 5px;
+}
+.nav-menu .container .btn .languagebutton {
+  width: 120px;
+  height: 33px;
 }
 
 .footer-top {
@@ -201,6 +209,7 @@ ul {
 .nasproject .swiper .swiper-slide {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .nasproject .swiper .swiper-slide .content {
   margin: 0 60px;
@@ -239,6 +248,18 @@ ul {
   border: none;
   cursor: pointer;
 }
+.nasproject .swiper .swiper-slide .circle {
+  background: #429f44;
+  width: 520px;
+  height: 520px;
+  right: 103px;
+  bottom: -93px;
+  z-index: -3;
+  border-radius: 50%;
+  transform: scale(0.6);
+  transition: transform 0.8s;
+  position: absolute;
+}
 .nasproject .swiper .swiper-button-next,
 .nasproject .swiper .swiper-button-prev {
   width: 40px;
@@ -254,6 +275,43 @@ ul {
 .nasproject .swiper .swiper-button-prev::after {
   font-size: 22px;
   color: #000;
+}
+
+.advantages {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 60px 0;
+}
+.advantages .container .boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages .container .boxes .box {
+  width: 30%;
+}
+.advantages .container .boxes .box img {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 25px;
+  filter: hue-rotate(83deg) grayscale(50%);
+}
+.advantages .container .boxes .box .text {
+  text-align: center;
+}
+.advantages .container .boxes .box .text h5 {
+  color: #000;
+  line-height: 1.15;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 0;
+}
+.advantages .container .boxes .box .text p {
+  color: #000;
+  line-height: 1.4;
+  font-size: 18px;
+  margin: 10px 0;
 }
 
 .credits {
@@ -564,4 +622,174 @@ ul {
   padding-bottom: 48px;
   padding-left: 44px;
   width: 54%;
+}
+
+body.dark_mode .nav-menu {
+  background-color: #000;
+}
+body.dark_mode .nav-menu .container .expand .menu li a {
+  color: #fff;
+}
+body.dark_mode .nav-menu .container .expand .menu li .sub-menu li a {
+  color: #000;
+}
+body.dark_mode .nav-menu .container .expand .menu li .sub-menu li i {
+  color: #000;
+}
+body.dark_mode .nasproject {
+  background: #2b2b2b;
+}
+body.dark_mode .nasproject .swiper-slide {
+  background: #2b2b2b;
+}
+body.dark_mode .nasproject .swiper-slide .content h1,
+body.dark_mode .nasproject .swiper-slide .content p,
+body.dark_mode .nasproject .swiper-slide .content a,
+body.dark_mode .nasproject .swiper-slide .content button {
+  color: #fff;
+}
+body.dark_mode .nasproject .swiper-button-next,
+body.dark_mode .nasproject .swiper-button-prev {
+  background-color: #fff;
+}
+body.dark_mode .advantages .container .boxes .box .text h5,
+body.dark_mode .advantages .container .boxes .box .text p {
+  color: #fff;
+}
+body.dark_mode .credits {
+  background-color: #000;
+}
+body.dark_mode .credits .container .credits-boxes .credits-box,
+body.dark_mode .credits .container .credit-boxes .credits-box {
+  color: #000;
+}
+body.dark_mode .footer-top {
+  background-color: #000;
+}
+body.dark_mode .footer-top .title {
+  color: #fff;
+}
+body.dark_mode .footer-top .title .social i,
+body.dark_mode .footer-top .title .social a {
+  color: #fff;
+}
+body.dark_mode .footer-main {
+  background-color: #000;
+}
+body.dark_mode .footer-main .container .menu li a {
+  color: #fff;
+}
+body.dark_mode .footer-bottom {
+  background-color: #000;
+}
+body.dark_mode .footer-bottom .container .copyright p,
+body.dark_mode .footer-bottom .container .site-by p {
+  color: #fff;
+}
+body.dark_mode .bokt {
+  background: #000;
+}
+body.dark_mode .bokt .container .text h2,
+body.dark_mode .bokt .container .text p {
+  color: #000;
+}
+body.dark_mode .missiya {
+  background: #000;
+}
+body.dark_mode .missiya .container .text,
+body.dark_mode .missiya .container .image {
+  color: #000;
+}
+body.dark_mode .rehberlik {
+  background: #000;
+}
+body.dark_mode .rehberlik .container .text,
+body.dark_mode .rehberlik .container image {
+  color: #fff;
+}
+body.dark_mode .rehberlik .container .text h2,
+body.dark_mode .rehberlik .container .text h4,
+body.dark_mode .rehberlik .container image h2,
+body.dark_mode .rehberlik .container image h4 {
+  color: #000;
+}
+body.dark_mode .maliyye {
+  background: #000;
+}
+body.dark_mode .maliyye .container .static-text h2 {
+  color: #000;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-menu .container .expand .menu {
+    display: none;
+  }
+  .nasproject .swiper .swiper-slide .content {
+    margin: 0;
+    padding: 29px 13px;
+  }
+  .nasproject .swiper .swiper-slide img {
+    display: none;
+  }
+  .credits .container .credits-boxes, .credits .container .credit-boxes {
+    display: block;
+  }
+  .credits .container .credits-boxes .credits-box, .credits .container .credit-boxes .credits-box {
+    width: 100%;
+  }
+  .footer-top .container {
+    display: block;
+    margin-left: 16px;
+  }
+  .footer-top .container .phone {
+    margin-top: 12px;
+  }
+  .footer-top .container .phone p {
+    text-align: left;
+  }
+  .footer-main .container .menu {
+    width: 50%;
+  }
+  .bokt .container {
+    display: block;
+  }
+  .bokt .container .text {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .missiya .container {
+    display: block;
+  }
+  .missiya .container .text {
+    width: 100%;
+  }
+  .missiya .container .image {
+    width: 100%;
+  }
+  .maliyye .container {
+    display: block;
+  }
+  .maliyye .container .static-text {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .maliyye .container .img {
+    width: 100%;
+  }
+  .maliyye .container .img img {
+    width: 100%;
+  }
+  .rehberlik .container {
+    display: block;
+  }
+  .rehberlik .container .text {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .rehberlik .container .image {
+    width: 100%;
+  }
+  .rehberlik .container .image img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
